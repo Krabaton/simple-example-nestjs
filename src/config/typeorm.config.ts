@@ -7,5 +7,5 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   entities: [Cat, User],
   database: './data/cats.sqlite',
   logging: true,
-  synchronize: true,
+  synchronize: false,
 }
